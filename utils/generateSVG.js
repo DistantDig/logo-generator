@@ -9,11 +9,11 @@ function generateSVG(data) {
 
  ${generateShapes.generateShapes(data.shape, data.backgroundColor)}
 
- <text x="150" y="125" font-size="60" text-anchor="middle" fill="${data.text}">${data.textColor}</text>
+ <text x="145" y="125" font-size="60" text-anchor="middle" fill="${data.textColor}">${data.text}</text>
 
 </svg>`;
     return svg;
-  }
+}
   
   
   module.exports = {generateSVG};

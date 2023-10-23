@@ -19,8 +19,8 @@ const questions = [
     {
         type: 'input',
         message: 'Enter a color name or hexadecimal number for your logo text color.',
-        name: 'characters',
-        default: 'textColor'
+        name: 'textColor',
+        default: 'white'
     },
     {
         type: 'input',
