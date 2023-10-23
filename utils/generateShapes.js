@@ -35,7 +35,7 @@ class Square {
 }
 
 // Function to all the shape generation
-function generateShapes(shape, shapeColor) {
+function renderShapes(shape, shapeColor) {
     switch(shape) {
         case 'Circle':
             const circle = new Circle(shapeColor);
@@ -49,4 +49,4 @@ function generateShapes(shape, shapeColor) {
     }
 }
 
-module.exports = {generateShapes};
+module.exports = {renderShapes};
