@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         message: 'Enter up to three characters for your logo.',
-        name: 'characters',
+        name: 'text',
         default: 'ABC'
     },
     {
@@ -20,12 +20,12 @@ const questions = [
         type: 'input',
         message: 'Enter a color name or hexadecimal number for your logo text color.',
         name: 'characters',
-        default: 'ABC'
+        default: 'textColor'
     },
     {
         type: 'input',
         message: 'Enter a color name or hexadecimal number for your logo background color.',
-        name: 'color',
+        name: 'backgroundColor',
         default: 'green'
     }
 ];

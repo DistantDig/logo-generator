@@ -1,17 +1,17 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.4"
-  },
   "name": "logo-generator",
   "description": "Generates a logo based on user input",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "",
+  "author": "DistantDig",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
