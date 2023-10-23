@@ -1,4 +1,4 @@
-// <-- SVG GENERATION -->
+const generateShapes = require('./generateShapes');
 
 // Function to generate svg file for logo
 function generateSVG(data) {
@@ -7,11 +7,9 @@ function generateSVG(data) {
     width="300" height="200"
     xmlns="http://www.w3.org/2000/svg">
 
- <rect width="100%" height="100%" fill="red" />
+ ${generateShapes.generateShapes(data.shape, data.backgroundColor)}
 
- <circle cx="150" cy="100" r="80" fill="green" />
-
- <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+ <text x="150" y="125" font-size="60" text-anchor="middle" fill="${data.text}">${data.textColor}</text>
 
 </svg>`;
     return svg;
